@@ -1,10 +1,10 @@
 const weather_app_base_url = "https://api.openweathermap.org/data/2.5/weather"
 
-const geminiAPIKey= "AIzaSyDnKNz4qZORiT62njuz03gULgQH-8TLvfU"
+const geminiAPIKey= '<gemini-api-key>'
 
 const gemini_base_url =`https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${geminiAPIKey}`
 
-const weatherAppAPIKey = "b94dafeb4e41f470ae00b428efd3dc81"
+const weatherAppAPIKey = "<weather-api-key>"
 
 const region = document.querySelector(".city");
 const temp = document.querySelector(".temp");
